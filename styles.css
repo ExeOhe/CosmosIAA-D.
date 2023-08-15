@@ -7,3 +7,21 @@ body {
 header, nav, main, footer {
   text-align: center;
 }
+
+/* Center-align list dots within ul */
+ul {
+  text-align: left; /* Reset text-align to left */
+  list-style: none;
+}
+
+/* Center-align list dots using pseudo-element */
+ul li {
+  position: relative;
+  text-align: center;
+}
+
+ul li::before {
+  content: "•"; /* Use a bullet character */
+  position: absolute;
+  left: 205px; /* Adjust the position as needed */
+}
