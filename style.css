@@ -1,0 +1,9 @@
+/* Center-align text within the body */
+body {
+  text-align: center;
+}
+
+/* Center-align text within specific elements */
+header, nav, main, footer {
+  text-align: center;
+}
