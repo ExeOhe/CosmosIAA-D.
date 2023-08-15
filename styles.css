@@ -10,18 +10,21 @@ header, nav, main, footer {
 
 /* Center-align list dots within ul */
 ul {
-  text-align: left; /* Reset text-align to left */
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0; /* Remove default padding */
+  list-style: none; /* Remove default list-style */
 }
 
-/* Center-align list dots using pseudo-element */
+/* Center-align list items using pseudo-element */
 ul li {
-  position: relative;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 10px 0; /* Adjust margin as needed */
 }
 
 ul li::before {
   content: "•"; /* Use a bullet character */
-  position: absolute;
-  left: 205px; /* Adjust the position as needed */
+  margin-right: 10px; /* Add spacing between bullet and text */
 }
