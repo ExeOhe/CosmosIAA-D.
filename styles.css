@@ -1,13 +1,23 @@
 /* Center-align text within the body */
 body {
+background-image: url("galaxybg.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
   text-align: center;
 }
 
 /* Center-align text within specific elements */
 header, nav, main, footer {
+  color: whitesmoke;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   text-align: center;
 }
 
+nav, ul, li, a{
+color: white;
+text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
+}
 /* Center-align list dots within ul */
 ul {
   display: flex;
@@ -28,3 +38,4 @@ ul li::before {
   content: "•"; /* Use a bullet character */
   margin-right: 10px; /* Add spacing between bullet and text */
 }
+
