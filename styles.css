@@ -43,7 +43,7 @@ ul li::before {
   margin-right: 10px; /* Add spacing between bullet and text */
 }
 
-/* Change link color and remove underline */
+/* Change link color */
 a {
   color: white;
   text-decoration: underline;
