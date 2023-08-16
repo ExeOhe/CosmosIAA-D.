@@ -11,11 +11,15 @@ header, nav, main, footer {
   color: whitesmoke;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* 0.5 for 50% transparency */
+  padding: 10px; /* Add some padding for space around the text */
+  border-radius: 10px; /* Add rounded corners */
+}
 }
 
 nav, ul, li, a{
 color: white;
-text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 
 }
 /* Center-align list dots within ul */
@@ -39,3 +43,13 @@ ul li::before {
   margin-right: 10px; /* Add spacing between bullet and text */
 }
 
+/* Change link color and remove underline */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Change link color for visited links */
+a:visited {
+  color: white;
+}
