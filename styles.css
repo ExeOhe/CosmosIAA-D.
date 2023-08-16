@@ -46,7 +46,7 @@ ul li::before {
 /* Change link color and remove underline */
 a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Change link color for visited links */
