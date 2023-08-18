@@ -15,8 +15,8 @@ header, nav, main, footer {
   padding: 10px; /* Add some padding for space around the text */
   border-radius: 10px; /* Add rounded corners */
 }
-}
 
+/* Add black outline shadow to text within nav */
 nav, ul, li, a{
 color: white;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
