@@ -1,12 +1,12 @@
-/* Center-align text within the body + background GIF */
+/* Background GIF to body */
 body {
     background-image: url("astronaught.gif");
     background-size: cover;
     background-repeat: no-repeat;
-      text-align: center;
 }
- /* Center-align text within Header*/
- header {
+
+ /* Center-align text within Header + Body*/
+ header, body {
     text-align: center;
     color: white;
  }
