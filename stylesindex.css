@@ -1,4 +1,4 @@
-/* Center-align text within the body */
+/* Center-align text within the body + background GIF */
 body {
 background-image: url("astronaught.gif");
 background-size: cover;
@@ -6,7 +6,7 @@ background-repeat: no-repeat;
   text-align: center;
 }
 
-/* Center-align text within specific elements */
+/* Center-align text within specific elements + transparent padding beneath specific elements + color of font*/
 header, nav, main, footer {
   color: whitesmoke;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
@@ -47,9 +47,4 @@ ul li::before {
 a {
   color: white;
   text-decoration: underline;
-}
-
-/* Change link color for visited links */
-a:visited {
-  color: white;
 }
