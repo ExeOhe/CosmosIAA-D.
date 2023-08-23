@@ -1,6 +1,6 @@
 /* Shared Styles via Classes & ID*/
+
 /* Center-align text within specific elements + transparent padding beneath specific elements + color of font*/
- /* Styles for containers */
  .container {
     color: whitesmoke;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;

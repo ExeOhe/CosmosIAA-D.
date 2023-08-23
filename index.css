@@ -6,18 +6,6 @@ background-repeat: no-repeat;
   text-align: center;
 }
 
-/* Center-align text within specific elements + transparent padding beneath specific elements + color of font*/
- /* Styles for containers */
-.container {
-  color: whitesmoke;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5); /* 50% transparent black background */
-  padding: 10px;
-  border-radius: 10px;
-}
-
-
 /* Add black outline shadow to text within nav,ul,li,a */
 nav, ul, li, a{
 color: white;
@@ -45,7 +33,7 @@ ul li::before {
   margin-right: 10px; /* Add spacing between bullet and text */
 }
 
-/* Change link color */
+/* Change link color + underline */
 a {
   color: white;
   text-decoration: underline;

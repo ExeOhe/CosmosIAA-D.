@@ -5,8 +5,3 @@ body {
     background-repeat: no-repeat;
 }
 
- /* Center-align text within Header + Body*/
- header, body {
-    text-align: center;
-    color: white;
- }
