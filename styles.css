@@ -1,5 +1,14 @@
 /* Shared Styles via Classes & ID*/
 
+/* Center-align text within the body + background GIF */
+.bodytextcenterbackground {
+    background-image: url("astronaught.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+      text-align: center;
+    }
+    
+
 /* Center-align text within specific elements + text shadow + transparent padding beneath specific elements + color of font*/
  .container {
     color: whitesmoke;

@@ -1,13 +1,5 @@
 /* Specific CSS to 'index.html'*/
 
-/* Center-align text within the body + background GIF */
-body {
-background-image: url("astronaught.gif");
-background-size: cover;
-background-repeat: no-repeat;
-  text-align: center;
-}
-
 /* Center-align list dots within ul */
 ul {
   display: flex;
