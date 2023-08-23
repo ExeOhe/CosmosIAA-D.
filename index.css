@@ -7,14 +7,16 @@ background-repeat: no-repeat;
 }
 
 /* Center-align text within specific elements + transparent padding beneath specific elements + color of font*/
-header, nav, main, footer {
+ /* Styles for containers */
+.container {
   color: whitesmoke;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5); /* 0.5 for 50% transparency */
-  padding: 10px; /* Add some padding for space around the text */
-  border-radius: 10px; /* Add rounded corners */
+  background: rgba(0, 0, 0, 0.5); /* 50% transparent black background */
+  padding: 10px;
+  border-radius: 10px;
 }
+
 
 /* Add black outline shadow to text within nav,ul,li,a */
 nav, ul, li, a{
