@@ -1,9 +1,1 @@
 /* Specific CSS to 'home.html'*/
-
-/* Background GIF to body */
-body {
-    background-image: url("astronaught.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
