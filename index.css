@@ -13,7 +13,7 @@ ul {
 ul li {
   display: flex;
   align-items: center;
-  margin: 10px 0; /* Adjust margin as needed */
+  margin: 20px 0; /* Adjust margin as needed */
 }
 
 ul li::before {
